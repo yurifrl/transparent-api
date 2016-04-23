@@ -4,5 +4,5 @@ docker run --rm -ti \
   -e ENV=development \
   -w /app \
   -v $(pwd):/app \
-  -p 1337:1337 \
+  -p 8080:8080 \
   transparent-api scripts/inside-container.sh "$@"
